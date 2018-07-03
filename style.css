@@ -1,0 +1,21 @@
+p {
+    background: red;
+    color: white;
+}
+
+.maClasse:empty {
+    display: block;
+    width: calc(100px - 5px);
+    height: 100px;
+    background: linear-gradient(red, 80%, green, 10%, blue);
+}
+
+@media screen and (max-width: 500px) {
+    .maClasse:empty {
+        background: orange;
+    } 
+}
+
+.blink {
+    display: none;
+}
